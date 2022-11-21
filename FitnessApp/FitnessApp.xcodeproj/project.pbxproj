@@ -1,0 +1,1507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17554427245DF99E0047B43F /* ATCSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17554426245DF99E0047B43F /* ATCSubscription.swift */; };
+		300444E924543F0C0083C83B /* FitnessUpgradeAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300444E824543F0C0083C83B /* FitnessUpgradeAccountView.swift */; };
+		3013296123CE8FF200551F53 /* ATCTitleDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3013296023CE8FF200551F53 /* ATCTitleDescriptionView.swift */; };
+		3013296323CE955A00551F53 /* FitnessFingerPrintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3013296223CE955A00551F53 /* FitnessFingerPrintView.swift */; };
+		3017B7D623F5815A00893BCE /* FitnessGoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3017B7D523F5815A00893BCE /* FitnessGoalsView.swift */; };
+		3017B7D823F583E100893BCE /* ATCCheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3017B7D723F583E100893BCE /* ATCCheckboxView.swift */; };
+		3017B7DA23F58D7200893BCE /* ATCSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3017B7D923F58D7200893BCE /* ATCSelectionView.swift */; };
+		301DA32224322B030074C53D /* FitnessCreatePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301DA32124322B030074C53D /* FitnessCreatePostView.swift */; };
+		301DA325243230170074C53D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301DA324243230170074C53D /* Coordinator.swift */; };
+		301DA327243230620074C53D /* CameraAndGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301DA326243230620074C53D /* CameraAndGalleryView.swift */; };
+		3024E0A02403538E007CA34A /* ATCNotificationUIContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024E09F2403538E007CA34A /* ATCNotificationUIContentView.swift */; };
+		3024E0A224035509007CA34A /* ATCNotificationExtraUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024E0A124035509007CA34A /* ATCNotificationExtraUIView.swift */; };
+		302764E023C71BD500F7E644 /* VerificationPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302764DF23C71BD500F7E644 /* VerificationPasswordView.swift */; };
+		302764E623C731AC00F7E644 /* ATCSecureTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302764E523C731AC00F7E644 /* ATCSecureTextFieldView.swift */; };
+		302764E823C8603F00F7E644 /* ATCSubFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302764E723C8603F00F7E644 /* ATCSubFooterView.swift */; };
+		302DDC8C241B1F6D00B383EB /* FitnessExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DDC8B241B1F6D00B383EB /* FitnessExploreView.swift */; };
+		302DDC8E241C788500B383EB /* ATCSearchTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DDC8D241C788500B383EB /* ATCSearchTextFieldView.swift */; };
+		302DDC91241C79ED00B383EB /* ATCArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DDC90241C79ED00B383EB /* ATCArticleView.swift */; };
+		302DDC93241C7AED00B383EB /* ATCArticlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DDC92241C7AED00B383EB /* ATCArticlesView.swift */; };
+		302DDC95241C7D1100B383EB /* ATCAuthorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DDC94241C7D1100B383EB /* ATCAuthorView.swift */; };
+		302DDC98241C7EBF00B383EB /* FitnessTopTopicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DDC97241C7EBF00B383EB /* FitnessTopTopicsView.swift */; };
+		302DDC9F241C900700B383EB /* FitnessArticleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DDC9E241C900700B383EB /* FitnessArticleProtocol.swift */; };
+		302DDCA1241C957700B383EB /* FitnessArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DDCA0241C957700B383EB /* FitnessArticle.swift */; };
+		302DDCA8241CB7D000B383EB /* SubContentModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DDCA6241CB7D000B383EB /* SubContentModelProtocol.swift */; };
+		302DDCA9241CB7D000B383EB /* SubContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DDCA7241CB7D000B383EB /* SubContentModel.swift */; };
+		302DDCAB241E183100B383EB /* FitnessSharePlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DDCAA241E183100B383EB /* FitnessSharePlaylistView.swift */; };
+		302DDCAD241E298C00B383EB /* FitnessSongProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DDCAC241E298C00B383EB /* FitnessSongProtocol.swift */; };
+		302DDCAF241E299A00B383EB /* FitnessSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DDCAE241E299A00B383EB /* FitnessSong.swift */; };
+		302DDCB2241E31C400B383EB /* FitnessSongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DDCB1241E31C400B383EB /* FitnessSongView.swift */; };
+		302DDCB4241E31FA00B383EB /* FitnessPlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DDCB3241E31FA00B383EB /* FitnessPlaylistView.swift */; };
+		302DDCB6242114D500B383EB /* FitnessShareAchievedResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DDCB5242114D500B383EB /* FitnessShareAchievedResultView.swift */; };
+		302DDCB9242121B100B383EB /* FitnessAchievedResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DDCB8242121B100B383EB /* FitnessAchievedResultView.swift */; };
+		3034DE88240DDE57003117EB /* FitnessWeightReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3034DE87240DDE57003117EB /* FitnessWeightReminderView.swift */; };
+		3034DE8A240FCB2C003117EB /* FitnessEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3034DE89240FCB2C003117EB /* FitnessEventView.swift */; };
+		3034DE8C24121791003117EB /* FitnessNearbyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3034DE8B24121791003117EB /* FitnessNearbyEvent.swift */; };
+		3034DE8E241217AB003117EB /* FitnessNearbyEventProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3034DE8D241217AB003117EB /* FitnessNearbyEventProtocol.swift */; };
+		3034DE902412180B003117EB /* FitnessHighlightEventProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3034DE8F2412180B003117EB /* FitnessHighlightEventProtocol.swift */; };
+		3034DE9224121821003117EB /* FitnessHighlightEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3034DE9124121821003117EB /* FitnessHighlightEvent.swift */; };
+		3034DE9524121887003117EB /* FitnessEventCalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3034DE9424121887003117EB /* FitnessEventCalenderView.swift */; };
+		3034DE97241218E0003117EB /* FitnessEventCalenderCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3034DE96241218E0003117EB /* FitnessEventCalenderCellView.swift */; };
+		3034DE9924121939003117EB /* FitnessTitleContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3034DE9824121939003117EB /* FitnessTitleContainerView.swift */; };
+		3034DE9B24132A93003117EB /* FitnessEventChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3034DE9A24132A93003117EB /* FitnessEventChallengeView.swift */; };
+		3034DE9D24135E4A003117EB /* FitnessAttendeesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3034DE9C24135E4A003117EB /* FitnessAttendeesView.swift */; };
+		3034DE9F241390C9003117EB /* ATCSeparatorLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3034DE9E241390C9003117EB /* ATCSeparatorLineView.swift */; };
+		3034DEA1241391D3003117EB /* FitnessCommentsInPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3034DEA0241391D3003117EB /* FitnessCommentsInPostView.swift */; };
+		3034DEA42413AA4E003117EB /* ATCCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3034DEA32413AA4E003117EB /* ATCCommentView.swift */; };
+		3034DEA62413AF4A003117EB /* FitnessCommentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3034DEA52413AF4A003117EB /* FitnessCommentProtocol.swift */; };
+		3034DEA82413AF63003117EB /* FitnessComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3034DEA72413AF63003117EB /* FitnessComment.swift */; };
+		3034DEAB2413DE4A003117EB /* ATCCommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3034DEAA2413DE4A003117EB /* ATCCommentsView.swift */; };
+		303C911723CAB478009C5819 /* Misc.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303C90DB23CAB478009C5819 /* Misc.xcassets */; };
+		303C911923CAF103009C5819 /* ATCCountryCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303C911823CAF103009C5819 /* ATCCountryCodeView.swift */; };
+		303C912723CC842E009C5819 /* ATCCenteredCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303C912623CC842E009C5819 /* ATCCenteredCollectionViewFlowLayout.swift */; };
+		303C912B23CC864C009C5819 /* ATCCenteredListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303C912A23CC864C009C5819 /* ATCCenteredListView.swift */; };
+		303C912D23CC8765009C5819 /* FitnessProfilePictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303C912C23CC8765009C5819 /* FitnessProfilePictureView.swift */; };
+		303C913123CD4950009C5819 /* ATCCenteredCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303C913023CD4950009C5819 /* ATCCenteredCollectionViewCell.swift */; };
+		30510AEA2402076500380935 /* FitnessInviteFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30510AE92402076500380935 /* FitnessInviteFriendView.swift */; };
+		30510AEC2402408300380935 /* ATCNotificationCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30510AEB2402408300380935 /* ATCNotificationCellView.swift */; };
+		30510AEE240266D000380935 /* FitnessNotificationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30510AED240266D000380935 /* FitnessNotificationListView.swift */; };
+		30510AF02402672400380935 /* FitnessOnboardingNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30510AEF2402672400380935 /* FitnessOnboardingNotificationView.swift */; };
+		30510AF22402683D00380935 /* FitnessUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30510AF12402683D00380935 /* FitnessUser.swift */; };
+		30510AF42402685200380935 /* FitnessUserProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30510AF32402685200380935 /* FitnessUserProtocol.swift */; };
+		30510AF62402694100380935 /* FitnessMockingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30510AF52402694100380935 /* FitnessMockingData.swift */; };
+		30510AF8240269C800380935 /* FitnessPostProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30510AF7240269C800380935 /* FitnessPostProtocol.swift */; };
+		30510AFA240269DC00380935 /* FitnessPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30510AF9240269DC00380935 /* FitnessPost.swift */; };
+		30510AFC240269F600380935 /* FitnessNotificationPayloadProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30510AFB240269F600380935 /* FitnessNotificationPayloadProtocol.swift */; };
+		30510AFE24026A1200380935 /* FitnessNotificationPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30510AFD24026A1200380935 /* FitnessNotificationPayload.swift */; };
+		3052F91F2423C05200514A24 /* FitnessRewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052F91E2423C05200514A24 /* FitnessRewardView.swift */; };
+		3052F9212424FE7C00514A24 /* CarouselContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052F9202424FE7C00514A24 /* CarouselContentView.swift */; };
+		3052F9232425148000514A24 /* FitnessQuickContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052F9222425148000514A24 /* FitnessQuickContent.swift */; };
+		3052F9262425198500514A24 /* FitnessRewardBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052F9252425198500514A24 /* FitnessRewardBoardView.swift */; };
+		3052F928242519E400514A24 /* FitnessQuickBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052F927242519E400514A24 /* FitnessQuickBannerView.swift */; };
+		3052F92A24251A9700514A24 /* FitnessRewardTipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052F92924251A9700514A24 /* FitnessRewardTipsView.swift */; };
+		306C95E423C6152E00DA0D5F /* ATCUIGenericConfigurationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306C95BB23C6152D00DA0D5F /* ATCUIGenericConfigurationProtocol.swift */; };
+		306C960523C61E1B00DA0D5F /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 306C960123C617E700DA0D5F /* Rubik-Bold.ttf */; };
+		306C960623C61E1E00DA0D5F /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 306C960423C617E800DA0D5F /* Rubik-BlackItalic.ttf */; };
+		306C960723C61E2200DA0D5F /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 306C960023C617E700DA0D5F /* Rubik-Black.ttf */; };
+		306C960823C61E2500DA0D5F /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 306C95FF23C617E700DA0D5F /* Rubik-BoldItalic.ttf */; };
+		306C960923C61E2800DA0D5F /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 306C960323C617E800DA0D5F /* Rubik-Italic.ttf */; };
+		306C960A23C61E2C00DA0D5F /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 306C95FD23C617E600DA0D5F /* Rubik-Light.ttf */; };
+		306C960B23C61E2F00DA0D5F /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 306C95FE23C617E700DA0D5F /* Rubik-LightItalic.ttf */; };
+		306C960C23C61E3200DA0D5F /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 306C960223C617E800DA0D5F /* Rubik-MediumItalic.ttf */; };
+		306C960F23C6247700DA0D5F /* ATCModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306C960E23C6247700DA0D5F /* ATCModifiers.swift */; };
+		306C961123C6267B00DA0D5F /* SingleVerificationCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306C961023C6267B00DA0D5F /* SingleVerificationCodeView.swift */; };
+		30737D2123C1E3480091F2AB /* FitnessInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30737D2023C1E3480091F2AB /* FitnessInformationView.swift */; };
+		30737D2323C1E6600091F2AB /* FitnessBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30737D2223C1E6600091F2AB /* FitnessBaseView.swift */; };
+		30737D2623C40BF00091F2AB /* SwiftUIKeyboardResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30737D2523C40BF00091F2AB /* SwiftUIKeyboardResponse.swift */; };
+		30737D2823C40C490091F2AB /* SwiftUIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30737D2723C40C490091F2AB /* SwiftUIExtension.swift */; };
+		30737D2A23C4A3BE0091F2AB /* FitnessVerificationCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30737D2923C4A3BE0091F2AB /* FitnessVerificationCodeView.swift */; };
+		3077581E23BCA9E1004D3122 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3077581D23BCA9E1004D3122 /* AppDelegate.swift */; };
+		3077582023BCA9E1004D3122 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3077581F23BCA9E1004D3122 /* SceneDelegate.swift */; };
+		3077582723BCA9E6004D3122 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3077582623BCA9E6004D3122 /* Preview Assets.xcassets */; };
+		3077582A23BCA9E6004D3122 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3077582823BCA9E6004D3122 /* LaunchScreen.storyboard */; };
+		3077666323BCDC06004D3122 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3077630C23BCDC05004D3122 /* UIColor.swift */; };
+		307766FD23BD7272004D3122 /* FitnessWalkthoughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307766FC23BD7272004D3122 /* FitnessWalkthoughView.swift */; };
+		3077670E23C0A949004D3122 /* ATCCarouselModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3077670823C0A949004D3122 /* ATCCarouselModel.swift */; };
+		3077670F23C0A949004D3122 /* ATCPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3077670923C0A949004D3122 /* ATCPageViewController.swift */; };
+		3077671023C0A949004D3122 /* ATCCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3077670A23C0A949004D3122 /* ATCCarouselView.swift */; };
+		3077671123C0A949004D3122 /* ATCPageControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3077670B23C0A949004D3122 /* ATCPageControlView.swift */; };
+		3077671323C0A949004D3122 /* ATCPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3077670D23C0A949004D3122 /* ATCPageView.swift */; };
+		3077671723C0BC92004D3122 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3077671523C0BC92004D3122 /* Rubik-Regular.ttf */; };
+		3077671823C0BC92004D3122 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3077671623C0BC92004D3122 /* Rubik-Medium.ttf */; };
+		3077671C23C0C18D004D3122 /* FitnessAppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3077671B23C0C18D004D3122 /* FitnessAppConfiguration.swift */; };
+		3077671E23C0C2B8004D3122 /* FitnessAppConfigurationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3077671D23C0C2B8004D3122 /* FitnessAppConfigurationProtocol.swift */; };
+		307D1714244167E200879A24 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307D1713244167E200879A24 /* HostingController.swift */; };
+		307D171E2444A21E00879A24 /* ATCTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307D171D2444A21E00879A24 /* ATCTabBarView.swift */; };
+		307D17202444A36A00879A24 /* ATCTabBarBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307D171F2444A36A00879A24 /* ATCTabBarBottomView.swift */; };
+		307D17222444A48D00879A24 /* ATCCurvedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307D17212444A48D00879A24 /* ATCCurvedShape.swift */; };
+		307D17242444B91000879A24 /* ATCCustomNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307D17232444B91000879A24 /* ATCCustomNavigationBarView.swift */; };
+		30862AC82407E310008F909D /* ATCFeedHeaderInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30862AC72407E310008F909D /* ATCFeedHeaderInfoView.swift */; };
+		30862ACA2407E37D008F909D /* ATCFeedTrackingActionsOnPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30862AC92407E37D008F909D /* ATCFeedTrackingActionsOnPostView.swift */; };
+		30862ACC2407E3D2008F909D /* ATCFeedBasicInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30862ACB2407E3D2008F909D /* ATCFeedBasicInfoView.swift */; };
+		30862ACE2407E444008F909D /* ATCFeedFullInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30862ACD2407E444008F909D /* ATCFeedFullInfoView.swift */; };
+		3095DC02244DF43400279652 /* ATCDrawerMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3095DC01244DF43400279652 /* ATCDrawerMenuView.swift */; };
+		3096236C23C97688000ACD58 /* ATCPasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3096236B23C97688000ACD58 /* ATCPasswordValidator.swift */; };
+		3096236F23C97DDD000ACD58 /* InformationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3096236E23C97DDD000ACD58 /* InformationType.swift */; };
+		30A055A82400127A0089304F /* ATCUpgradeAccountBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A055A22400127A0089304F /* ATCUpgradeAccountBottomView.swift */; };
+		30A055A92400127A0089304F /* ATCUpgradeAccountCheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A055A32400127A0089304F /* ATCUpgradeAccountCheckboxView.swift */; };
+		30A055AA2400127A0089304F /* ATCUpgradeAccountConfigurationUIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A055A42400127A0089304F /* ATCUpgradeAccountConfigurationUIProtocol.swift */; };
+		30A055AB2400127A0089304F /* ATCUpgradeAccountConsumerTypesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A055A52400127A0089304F /* ATCUpgradeAccountConsumerTypesView.swift */; };
+		30A055AC2400127A0089304F /* ATCUpgradeAccountConsumerTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A055A62400127A0089304F /* ATCUpgradeAccountConsumerTypeView.swift */; };
+		30A055AD2400127A0089304F /* ATCUpgradeAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A055A72400127A0089304F /* ATCUpgradeAccountView.swift */; };
+		30A055BC24014D3E0089304F /* ATCTextAndToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A055BB24014D3E0089304F /* ATCTextAndToggleView.swift */; };
+		30A055BF2401577A0089304F /* SettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A055BE2401577A0089304F /* SettingModel.swift */; };
+		30A055C12401581B0089304F /* FitnessSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A055C02401581B0089304F /* FitnessSettingView.swift */; };
+		30A2F35D23CFC49A008391F3 /* FitnessGenderSeletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A2F35C23CFC49A008391F3 /* FitnessGenderSeletionView.swift */; };
+		30ADC8C4242E41A60009ACE1 /* Path+ATCAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ADC8BC242E41A60009ACE1 /* Path+ATCAdditions.swift */; };
+		30ADC8C6242E41B00009ACE1 /* ATCLineChartDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ADC8C5242E41AF0009ACE1 /* ATCLineChartDataSource.swift */; };
+		30ADC8C8242F00E90009ACE1 /* ATCLineChartIndicatorPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ADC8C7242F00E90009ACE1 /* ATCLineChartIndicatorPoint.swift */; };
+		30ADC8CA242F013A0009ACE1 /* ATCChartBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ADC8C9242F01390009ACE1 /* ATCChartBoardView.swift */; };
+		30ADC8CC242F01CB0009ACE1 /* ATCLineChartLineProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ADC8CB242F01CB0009ACE1 /* ATCLineChartLineProgress.swift */; };
+		30ADC8CE242F021A0009ACE1 /* ATCLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ADC8CD242F021A0009ACE1 /* ATCLineChartView.swift */; };
+		30ADC8D0242F025F0009ACE1 /* ATCMagnifierRectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ADC8CF242F025F0009ACE1 /* ATCMagnifierRectView.swift */; };
+		30ADC8D3242F04820009ACE1 /* FitnessProfileProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ADC8D2242F04820009ACE1 /* FitnessProfileProgressView.swift */; };
+		30ADC8D5242FA0120009ACE1 /* FitnessTargetTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ADC8D4242FA0120009ACE1 /* FitnessTargetTrackingView.swift */; };
+		30ADC8D7242FA0DC0009ACE1 /* FitnessJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ADC8D6242FA0DC0009ACE1 /* FitnessJournalView.swift */; };
+		30ADC8DB24304F760009ACE1 /* FitnessMyProfileProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ADC8DA24304F760009ACE1 /* FitnessMyProfileProgressView.swift */; };
+		30ADC8DD243086F30009ACE1 /* ATCHealthTrackingInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ADC8DC243086F30009ACE1 /* ATCHealthTrackingInformationView.swift */; };
+		30ADC8DF2430E9560009ACE1 /* FitnessBadgesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ADC8DE2430E9550009ACE1 /* FitnessBadgesView.swift */; };
+		30B3D9502405F9C700CB0DAD /* FitnessFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B3D94F2405F9C700CB0DAD /* FitnessFeedView.swift */; };
+		30B3D9542405FB6500CB0DAD /* ATCAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B3D9532405FB6500CB0DAD /* ATCAvatarView.swift */; };
+		30C0A4D323F699B500421A22 /* FitnessSuccessRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0A4D223F699B500421A22 /* FitnessSuccessRegistrationView.swift */; };
+		30CF4B1A24508917000687BE /* FitnessDrawerBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CF4B1924508917000687BE /* FitnessDrawerBaseView.swift */; };
+		30D06C452451EBEB0047ABD8 /* ATCDrawerMenu+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D06C442451EBEB0047ABD8 /* ATCDrawerMenu+Extension.swift */; };
+		30D5773A243CAFC500E4AC90 /* ATCVerticalProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D57739243CAFC500E4AC90 /* ATCVerticalProgressBarView.swift */; };
+		30D5773D243CB5A000E4AC90 /* FitnessWarningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D5773C243CB5A000E4AC90 /* FitnessWarningView.swift */; };
+		30D57742243CCF1400E4AC90 /* FitnessStepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D57741243CCF1400E4AC90 /* FitnessStepsView.swift */; };
+		30D57744243CD16600E4AC90 /* FitnessInsightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D57743243CD16600E4AC90 /* FitnessInsightView.swift */; };
+		30D57746243D58F600E4AC90 /* FitnessDropdownButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D57745243D58F600E4AC90 /* FitnessDropdownButtonView.swift */; };
+		30DA3AD52435E734003F8934 /* FitnessHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA3AD42435E734003F8934 /* FitnessHomeView.swift */; };
+		30DA3AD7243629DF003F8934 /* FitnessTrackingProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA3AD6243629DF003F8934 /* FitnessTrackingProgress.swift */; };
+		30DA3ADA24362A9A003F8934 /* FitnessTargetProcessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA3AD924362A9A003F8934 /* FitnessTargetProcessView.swift */; };
+		30DA3ADC2439C9A7003F8934 /* FitnessNutritionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA3ADB2439C9A7003F8934 /* FitnessNutritionView.swift */; };
+		30DA3ADE243AB131003F8934 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA3ADD243AB131003F8934 /* UIImage.swift */; };
+		30DA3AE0243AB1AB003F8934 /* ATCLocalizationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA3ADF243AB1AA003F8934 /* ATCLocalizationHelper.swift */; };
+		30DA3AE2243AB1F4003F8934 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA3AE1243AB1F4003F8934 /* String.swift */; };
+		30DA3AE5243AB377003F8934 /* FitnessNutritionalIngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA3AE4243AB377003F8934 /* FitnessNutritionalIngredientsView.swift */; };
+		30DA3AE7243AB41D003F8934 /* FitnessNutritiousMealsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA3AE6243AB41D003F8934 /* FitnessNutritiousMealsView.swift */; };
+		30DA3AE9243AB549003F8934 /* ATCHighlightTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA3AE8243AB549003F8934 /* ATCHighlightTextView.swift */; };
+		30DA3AEB243B6685003F8934 /* FitnessWaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA3AEA243B6685003F8934 /* FitnessWaterView.swift */; };
+		30DA67642425CD2B007629F0 /* FitnessPodcastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA67632425CD2B007629F0 /* FitnessPodcastView.swift */; };
+		30DA676724264CF2007629F0 /* FitnessLivePodcastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA676624264CF2007629F0 /* FitnessLivePodcastView.swift */; };
+		30DA676924264D5C007629F0 /* FitnessSuggestionPodcastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA676824264D5C007629F0 /* FitnessSuggestionPodcastView.swift */; };
+		30DA676B24264DBE007629F0 /* FitnessCategoryPodcastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA676A24264DBE007629F0 /* FitnessCategoryPodcastView.swift */; };
+		30DA676D24270A60007629F0 /* FitnessGoodNightTipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA676C24270A60007629F0 /* FitnessGoodNightTipsView.swift */; };
+		30DA676F24270A7D007629F0 /* FitnessPodcastPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA676E24270A7D007629F0 /* FitnessPodcastPlayerView.swift */; };
+		30DA6771242760CD007629F0 /* ATCHorizontalProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA6770242760CD007629F0 /* ATCHorizontalProgressBarView.swift */; };
+		30DA67752427AC36007629F0 /* ATCAudioPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA67742427AC36007629F0 /* ATCAudioPlayerHelper.swift */; };
+		30DA67782427AF58007629F0 /* empire-state.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 30DA67772427AF58007629F0 /* empire-state.mp3 */; };
+		30DB0AC7240B30CC0066759A /* FitnessFeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB0AC6240B30CC0066759A /* FitnessFeedbackView.swift */; };
+		30DB0ACA240BEBBA0066759A /* ATCFeedbackEmotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB0AC9240BEBBA0066759A /* ATCFeedbackEmotionView.swift */; };
+		30DB0ACC240BEBD30066759A /* ATCFeedbackEmotionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB0ACB240BEBD30066759A /* ATCFeedbackEmotionsView.swift */; };
+		30DB0ACE240BED290066759A /* ATCFeedbackReasonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB0ACD240BED290066759A /* ATCFeedbackReasonView.swift */; };
+		30DB0AD0240BED850066759A /* ATCFeedbackReasonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB0ACF240BED850066759A /* ATCFeedbackReasonsView.swift */; };
+		30DB0AD2240BEDCC0066759A /* ATCFeedbackNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB0AD1240BEDCC0066759A /* ATCFeedbackNoteView.swift */; };
+		30DB0AD4240BEE7B0066759A /* ATCFoundationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB0AD3240BEE7B0066759A /* ATCFoundationExtension.swift */; };
+		30DC5B6923D5F1C200B9D0C1 /* ATCGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DC5B6823D5F1C200B9D0C1 /* ATCGridView.swift */; };
+		30DC5B6B23D5F24600B9D0C1 /* FitnessInterestsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DC5B6A23D5F24600B9D0C1 /* FitnessInterestsView.swift */; };
+		30DC5B6D23D7374100B9D0C1 /* FitnessCurrentLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DC5B6C23D7374100B9D0C1 /* FitnessCurrentLevelView.swift */; };
+		30DC5B6F23D73FFF00B9D0C1 /* ATCSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DC5B6E23D73FFF00B9D0C1 /* ATCSliderView.swift */; };
+		30DCCBE9242CE60B008B44A4 /* FitnessNutritionTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DCCBE8242CE60B008B44A4 /* FitnessNutritionTutorialView.swift */; };
+		30EC5D722428E6CF006295D6 /* FitnessPlayerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EC5D712428E6CF006295D6 /* FitnessPlayerControlsView.swift */; };
+		30EC5D742428F86C006295D6 /* FitnessPodcastDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EC5D732428F86C006295D6 /* FitnessPodcastDetailsView.swift */; };
+		30EC5D78242BAA85006295D6 /* ATCSubContentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EC5D76242BAA85006295D6 /* ATCSubContentListView.swift */; };
+		30EC5D79242BAA85006295D6 /* ATCSubContentCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EC5D77242BAA85006295D6 /* ATCSubContentCellView.swift */; };
+		30EC5D7C242BC4B8006295D6 /* FitnessPodcastDetailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EC5D7B242BC4B8006295D6 /* FitnessPodcastDetailContentView.swift */; };
+		30F37F552416763100FC074D /* FitnessSleepReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F37F542416763100FC074D /* FitnessSleepReminderView.swift */; };
+		30F37F572416820300FC074D /* FitnessSubBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F37F562416820300FC074D /* FitnessSubBaseView.swift */; };
+		9D87B5D0255B214700689F3D /* ATCIAPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D87B5CE255B214700689F3D /* ATCIAPService.swift */; };
+		CABDC7122929C34800313392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABDC7112929C34800313392 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17554426245DF99E0047B43F /* ATCSubscription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCSubscription.swift; sourceTree = "<group>"; };
+		300444E824543F0C0083C83B /* FitnessUpgradeAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessUpgradeAccountView.swift; sourceTree = "<group>"; };
+		3013296023CE8FF200551F53 /* ATCTitleDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCTitleDescriptionView.swift; sourceTree = "<group>"; };
+		3013296223CE955A00551F53 /* FitnessFingerPrintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessFingerPrintView.swift; sourceTree = "<group>"; };
+		3017B7D523F5815A00893BCE /* FitnessGoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessGoalsView.swift; sourceTree = "<group>"; };
+		3017B7D723F583E100893BCE /* ATCCheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCCheckboxView.swift; sourceTree = "<group>"; };
+		3017B7D923F58D7200893BCE /* ATCSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCSelectionView.swift; sourceTree = "<group>"; };
+		301DA32124322B030074C53D /* FitnessCreatePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessCreatePostView.swift; sourceTree = "<group>"; };
+		301DA324243230170074C53D /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		301DA326243230620074C53D /* CameraAndGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAndGalleryView.swift; sourceTree = "<group>"; };
+		3024E09F2403538E007CA34A /* ATCNotificationUIContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCNotificationUIContentView.swift; sourceTree = "<group>"; };
+		3024E0A124035509007CA34A /* ATCNotificationExtraUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCNotificationExtraUIView.swift; sourceTree = "<group>"; };
+		302764DF23C71BD500F7E644 /* VerificationPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationPasswordView.swift; sourceTree = "<group>"; };
+		302764E523C731AC00F7E644 /* ATCSecureTextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCSecureTextFieldView.swift; sourceTree = "<group>"; };
+		302764E723C8603F00F7E644 /* ATCSubFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCSubFooterView.swift; sourceTree = "<group>"; };
+		302DDC8B241B1F6D00B383EB /* FitnessExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessExploreView.swift; sourceTree = "<group>"; };
+		302DDC8D241C788500B383EB /* ATCSearchTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCSearchTextFieldView.swift; sourceTree = "<group>"; };
+		302DDC90241C79ED00B383EB /* ATCArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCArticleView.swift; sourceTree = "<group>"; };
+		302DDC92241C7AED00B383EB /* ATCArticlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCArticlesView.swift; sourceTree = "<group>"; };
+		302DDC94241C7D1100B383EB /* ATCAuthorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCAuthorView.swift; sourceTree = "<group>"; };
+		302DDC97241C7EBF00B383EB /* FitnessTopTopicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessTopTopicsView.swift; sourceTree = "<group>"; };
+		302DDC9E241C900700B383EB /* FitnessArticleProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessArticleProtocol.swift; sourceTree = "<group>"; };
+		302DDCA0241C957700B383EB /* FitnessArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessArticle.swift; sourceTree = "<group>"; };
+		302DDCA6241CB7D000B383EB /* SubContentModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubContentModelProtocol.swift; sourceTree = "<group>"; };
+		302DDCA7241CB7D000B383EB /* SubContentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubContentModel.swift; sourceTree = "<group>"; };
+		302DDCAA241E183100B383EB /* FitnessSharePlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessSharePlaylistView.swift; sourceTree = "<group>"; };
+		302DDCAC241E298C00B383EB /* FitnessSongProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessSongProtocol.swift; sourceTree = "<group>"; };
+		302DDCAE241E299A00B383EB /* FitnessSong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessSong.swift; sourceTree = "<group>"; };
+		302DDCB1241E31C400B383EB /* FitnessSongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessSongView.swift; sourceTree = "<group>"; };
+		302DDCB3241E31FA00B383EB /* FitnessPlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessPlaylistView.swift; sourceTree = "<group>"; };
+		302DDCB5242114D500B383EB /* FitnessShareAchievedResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessShareAchievedResultView.swift; sourceTree = "<group>"; };
+		302DDCB8242121B100B383EB /* FitnessAchievedResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAchievedResultView.swift; sourceTree = "<group>"; };
+		3034DE87240DDE57003117EB /* FitnessWeightReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessWeightReminderView.swift; sourceTree = "<group>"; };
+		3034DE89240FCB2C003117EB /* FitnessEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessEventView.swift; sourceTree = "<group>"; };
+		3034DE8B24121791003117EB /* FitnessNearbyEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessNearbyEvent.swift; sourceTree = "<group>"; };
+		3034DE8D241217AB003117EB /* FitnessNearbyEventProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessNearbyEventProtocol.swift; sourceTree = "<group>"; };
+		3034DE8F2412180B003117EB /* FitnessHighlightEventProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessHighlightEventProtocol.swift; sourceTree = "<group>"; };
+		3034DE9124121821003117EB /* FitnessHighlightEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessHighlightEvent.swift; sourceTree = "<group>"; };
+		3034DE9424121887003117EB /* FitnessEventCalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessEventCalenderView.swift; sourceTree = "<group>"; };
+		3034DE96241218E0003117EB /* FitnessEventCalenderCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessEventCalenderCellView.swift; sourceTree = "<group>"; };
+		3034DE9824121939003117EB /* FitnessTitleContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessTitleContainerView.swift; sourceTree = "<group>"; };
+		3034DE9A24132A93003117EB /* FitnessEventChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessEventChallengeView.swift; sourceTree = "<group>"; };
+		3034DE9C24135E4A003117EB /* FitnessAttendeesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAttendeesView.swift; sourceTree = "<group>"; };
+		3034DE9E241390C9003117EB /* ATCSeparatorLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCSeparatorLineView.swift; sourceTree = "<group>"; };
+		3034DEA0241391D3003117EB /* FitnessCommentsInPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessCommentsInPostView.swift; sourceTree = "<group>"; };
+		3034DEA32413AA4E003117EB /* ATCCommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCCommentView.swift; sourceTree = "<group>"; };
+		3034DEA52413AF4A003117EB /* FitnessCommentProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessCommentProtocol.swift; sourceTree = "<group>"; };
+		3034DEA72413AF63003117EB /* FitnessComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessComment.swift; sourceTree = "<group>"; };
+		3034DEAA2413DE4A003117EB /* ATCCommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCCommentsView.swift; sourceTree = "<group>"; };
+		303C90DB23CAB478009C5819 /* Misc.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Misc.xcassets; sourceTree = "<group>"; };
+		303C911823CAF103009C5819 /* ATCCountryCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCCountryCodeView.swift; sourceTree = "<group>"; };
+		303C912623CC842E009C5819 /* ATCCenteredCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCCenteredCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		303C912A23CC864C009C5819 /* ATCCenteredListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCCenteredListView.swift; sourceTree = "<group>"; };
+		303C912C23CC8765009C5819 /* FitnessProfilePictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessProfilePictureView.swift; sourceTree = "<group>"; };
+		303C913023CD4950009C5819 /* ATCCenteredCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCCenteredCollectionViewCell.swift; sourceTree = "<group>"; };
+		30510AE92402076500380935 /* FitnessInviteFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessInviteFriendView.swift; sourceTree = "<group>"; };
+		30510AEB2402408300380935 /* ATCNotificationCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCNotificationCellView.swift; sourceTree = "<group>"; };
+		30510AED240266D000380935 /* FitnessNotificationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessNotificationListView.swift; sourceTree = "<group>"; };
+		30510AEF2402672400380935 /* FitnessOnboardingNotificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitnessOnboardingNotificationView.swift; sourceTree = "<group>"; };
+		30510AF12402683D00380935 /* FitnessUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessUser.swift; sourceTree = "<group>"; };
+		30510AF32402685200380935 /* FitnessUserProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessUserProtocol.swift; sourceTree = "<group>"; };
+		30510AF52402694100380935 /* FitnessMockingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessMockingData.swift; sourceTree = "<group>"; };
+		30510AF7240269C800380935 /* FitnessPostProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessPostProtocol.swift; sourceTree = "<group>"; };
+		30510AF9240269DC00380935 /* FitnessPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessPost.swift; sourceTree = "<group>"; };
+		30510AFB240269F600380935 /* FitnessNotificationPayloadProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessNotificationPayloadProtocol.swift; sourceTree = "<group>"; };
+		30510AFD24026A1200380935 /* FitnessNotificationPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessNotificationPayload.swift; sourceTree = "<group>"; };
+		3052F91E2423C05200514A24 /* FitnessRewardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessRewardView.swift; sourceTree = "<group>"; };
+		3052F9202424FE7C00514A24 /* CarouselContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselContentView.swift; sourceTree = "<group>"; };
+		3052F9222425148000514A24 /* FitnessQuickContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessQuickContent.swift; sourceTree = "<group>"; };
+		3052F9252425198500514A24 /* FitnessRewardBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessRewardBoardView.swift; sourceTree = "<group>"; };
+		3052F927242519E400514A24 /* FitnessQuickBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessQuickBannerView.swift; sourceTree = "<group>"; };
+		3052F92924251A9700514A24 /* FitnessRewardTipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessRewardTipsView.swift; sourceTree = "<group>"; };
+		306C95BB23C6152D00DA0D5F /* ATCUIGenericConfigurationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCUIGenericConfigurationProtocol.swift; sourceTree = "<group>"; };
+		306C95FD23C617E600DA0D5F /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		306C95FE23C617E700DA0D5F /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		306C95FF23C617E700DA0D5F /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		306C960023C617E700DA0D5F /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		306C960123C617E700DA0D5F /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		306C960223C617E800DA0D5F /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		306C960323C617E800DA0D5F /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		306C960423C617E800DA0D5F /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		306C960E23C6247700DA0D5F /* ATCModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCModifiers.swift; sourceTree = "<group>"; };
+		306C961023C6267B00DA0D5F /* SingleVerificationCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleVerificationCodeView.swift; sourceTree = "<group>"; };
+		30737D2023C1E3480091F2AB /* FitnessInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessInformationView.swift; sourceTree = "<group>"; };
+		30737D2223C1E6600091F2AB /* FitnessBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessBaseView.swift; sourceTree = "<group>"; };
+		30737D2523C40BF00091F2AB /* SwiftUIKeyboardResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIKeyboardResponse.swift; sourceTree = "<group>"; };
+		30737D2723C40C490091F2AB /* SwiftUIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExtension.swift; sourceTree = "<group>"; };
+		30737D2923C4A3BE0091F2AB /* FitnessVerificationCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessVerificationCodeView.swift; sourceTree = "<group>"; };
+		3077581A23BCA9E1004D3122 /* Fitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3077581D23BCA9E1004D3122 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3077581F23BCA9E1004D3122 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3077582623BCA9E6004D3122 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3077582923BCA9E6004D3122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3077582B23BCA9E6004D3122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = FitnessApp/Resources/Info.plist; sourceTree = SOURCE_ROOT; };
+		3077630C23BCDC05004D3122 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		307766FC23BD7272004D3122 /* FitnessWalkthoughView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessWalkthoughView.swift; sourceTree = "<group>"; };
+		3077670823C0A949004D3122 /* ATCCarouselModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCCarouselModel.swift; sourceTree = "<group>"; };
+		3077670923C0A949004D3122 /* ATCPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCPageViewController.swift; sourceTree = "<group>"; };
+		3077670A23C0A949004D3122 /* ATCCarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCCarouselView.swift; sourceTree = "<group>"; };
+		3077670B23C0A949004D3122 /* ATCPageControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCPageControlView.swift; sourceTree = "<group>"; };
+		3077670D23C0A949004D3122 /* ATCPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCPageView.swift; sourceTree = "<group>"; };
+		3077671523C0BC92004D3122 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		3077671623C0BC92004D3122 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		3077671B23C0C18D004D3122 /* FitnessAppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAppConfiguration.swift; sourceTree = "<group>"; };
+		3077671D23C0C2B8004D3122 /* FitnessAppConfigurationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAppConfigurationProtocol.swift; sourceTree = "<group>"; };
+		307D1713244167E200879A24 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		307D171D2444A21E00879A24 /* ATCTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCTabBarView.swift; sourceTree = "<group>"; };
+		307D171F2444A36A00879A24 /* ATCTabBarBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCTabBarBottomView.swift; sourceTree = "<group>"; };
+		307D17212444A48D00879A24 /* ATCCurvedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCCurvedShape.swift; sourceTree = "<group>"; };
+		307D17232444B91000879A24 /* ATCCustomNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCCustomNavigationBarView.swift; sourceTree = "<group>"; };
+		30862AC72407E310008F909D /* ATCFeedHeaderInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCFeedHeaderInfoView.swift; sourceTree = "<group>"; };
+		30862AC92407E37D008F909D /* ATCFeedTrackingActionsOnPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCFeedTrackingActionsOnPostView.swift; sourceTree = "<group>"; };
+		30862ACB2407E3D2008F909D /* ATCFeedBasicInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCFeedBasicInfoView.swift; sourceTree = "<group>"; };
+		30862ACD2407E444008F909D /* ATCFeedFullInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCFeedFullInfoView.swift; sourceTree = "<group>"; };
+		3095DC01244DF43400279652 /* ATCDrawerMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCDrawerMenuView.swift; sourceTree = "<group>"; };
+		3096236B23C97688000ACD58 /* ATCPasswordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCPasswordValidator.swift; sourceTree = "<group>"; };
+		3096236E23C97DDD000ACD58 /* InformationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationType.swift; sourceTree = "<group>"; };
+		30A055A22400127A0089304F /* ATCUpgradeAccountBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCUpgradeAccountBottomView.swift; sourceTree = "<group>"; };
+		30A055A32400127A0089304F /* ATCUpgradeAccountCheckboxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCUpgradeAccountCheckboxView.swift; sourceTree = "<group>"; };
+		30A055A42400127A0089304F /* ATCUpgradeAccountConfigurationUIProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCUpgradeAccountConfigurationUIProtocol.swift; sourceTree = "<group>"; };
+		30A055A52400127A0089304F /* ATCUpgradeAccountConsumerTypesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCUpgradeAccountConsumerTypesView.swift; sourceTree = "<group>"; };
+		30A055A62400127A0089304F /* ATCUpgradeAccountConsumerTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCUpgradeAccountConsumerTypeView.swift; sourceTree = "<group>"; };
+		30A055A72400127A0089304F /* ATCUpgradeAccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCUpgradeAccountView.swift; sourceTree = "<group>"; };
+		30A055BB24014D3E0089304F /* ATCTextAndToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCTextAndToggleView.swift; sourceTree = "<group>"; };
+		30A055BE2401577A0089304F /* SettingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingModel.swift; sourceTree = "<group>"; };
+		30A055C02401581B0089304F /* FitnessSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessSettingView.swift; sourceTree = "<group>"; };
+		30A2F35C23CFC49A008391F3 /* FitnessGenderSeletionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessGenderSeletionView.swift; sourceTree = "<group>"; };
+		30ADC8BC242E41A60009ACE1 /* Path+ATCAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Path+ATCAdditions.swift"; sourceTree = "<group>"; };
+		30ADC8C5242E41AF0009ACE1 /* ATCLineChartDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCLineChartDataSource.swift; sourceTree = "<group>"; };
+		30ADC8C7242F00E90009ACE1 /* ATCLineChartIndicatorPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCLineChartIndicatorPoint.swift; sourceTree = "<group>"; };
+		30ADC8C9242F01390009ACE1 /* ATCChartBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCChartBoardView.swift; sourceTree = "<group>"; };
+		30ADC8CB242F01CB0009ACE1 /* ATCLineChartLineProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCLineChartLineProgress.swift; sourceTree = "<group>"; };
+		30ADC8CD242F021A0009ACE1 /* ATCLineChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCLineChartView.swift; sourceTree = "<group>"; };
+		30ADC8CF242F025F0009ACE1 /* ATCMagnifierRectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCMagnifierRectView.swift; sourceTree = "<group>"; };
+		30ADC8D2242F04820009ACE1 /* FitnessProfileProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessProfileProgressView.swift; sourceTree = "<group>"; };
+		30ADC8D4242FA0120009ACE1 /* FitnessTargetTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessTargetTrackingView.swift; sourceTree = "<group>"; };
+		30ADC8D6242FA0DC0009ACE1 /* FitnessJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessJournalView.swift; sourceTree = "<group>"; };
+		30ADC8DA24304F760009ACE1 /* FitnessMyProfileProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessMyProfileProgressView.swift; sourceTree = "<group>"; };
+		30ADC8DC243086F30009ACE1 /* ATCHealthTrackingInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCHealthTrackingInformationView.swift; sourceTree = "<group>"; };
+		30ADC8DE2430E9550009ACE1 /* FitnessBadgesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessBadgesView.swift; sourceTree = "<group>"; };
+		30B3D94F2405F9C700CB0DAD /* FitnessFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessFeedView.swift; sourceTree = "<group>"; };
+		30B3D9532405FB6500CB0DAD /* ATCAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCAvatarView.swift; sourceTree = "<group>"; };
+		30C0A4D223F699B500421A22 /* FitnessSuccessRegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessSuccessRegistrationView.swift; sourceTree = "<group>"; };
+		30CF4B1924508917000687BE /* FitnessDrawerBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessDrawerBaseView.swift; sourceTree = "<group>"; };
+		30D06C442451EBEB0047ABD8 /* ATCDrawerMenu+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ATCDrawerMenu+Extension.swift"; sourceTree = "<group>"; };
+		30D57739243CAFC500E4AC90 /* ATCVerticalProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCVerticalProgressBarView.swift; sourceTree = "<group>"; };
+		30D5773C243CB5A000E4AC90 /* FitnessWarningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessWarningView.swift; sourceTree = "<group>"; };
+		30D57741243CCF1400E4AC90 /* FitnessStepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessStepsView.swift; sourceTree = "<group>"; };
+		30D57743243CD16600E4AC90 /* FitnessInsightView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitnessInsightView.swift; sourceTree = "<group>"; };
+		30D57745243D58F600E4AC90 /* FitnessDropdownButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessDropdownButtonView.swift; sourceTree = "<group>"; };
+		30DA3AD42435E734003F8934 /* FitnessHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessHomeView.swift; sourceTree = "<group>"; };
+		30DA3AD6243629DF003F8934 /* FitnessTrackingProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessTrackingProgress.swift; sourceTree = "<group>"; };
+		30DA3AD924362A9A003F8934 /* FitnessTargetProcessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessTargetProcessView.swift; sourceTree = "<group>"; };
+		30DA3ADB2439C9A7003F8934 /* FitnessNutritionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessNutritionView.swift; sourceTree = "<group>"; };
+		30DA3ADD243AB131003F8934 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		30DA3ADF243AB1AA003F8934 /* ATCLocalizationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ATCLocalizationHelper.swift; path = Localization/ATCLocalizationHelper.swift; sourceTree = "<group>"; };
+		30DA3AE1243AB1F4003F8934 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		30DA3AE4243AB377003F8934 /* FitnessNutritionalIngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessNutritionalIngredientsView.swift; sourceTree = "<group>"; };
+		30DA3AE6243AB41D003F8934 /* FitnessNutritiousMealsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessNutritiousMealsView.swift; sourceTree = "<group>"; };
+		30DA3AE8243AB549003F8934 /* ATCHighlightTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCHighlightTextView.swift; sourceTree = "<group>"; };
+		30DA3AEA243B6685003F8934 /* FitnessWaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessWaterView.swift; sourceTree = "<group>"; };
+		30DA67632425CD2B007629F0 /* FitnessPodcastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessPodcastView.swift; sourceTree = "<group>"; };
+		30DA676624264CF2007629F0 /* FitnessLivePodcastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessLivePodcastView.swift; sourceTree = "<group>"; };
+		30DA676824264D5C007629F0 /* FitnessSuggestionPodcastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessSuggestionPodcastView.swift; sourceTree = "<group>"; };
+		30DA676A24264DBE007629F0 /* FitnessCategoryPodcastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessCategoryPodcastView.swift; sourceTree = "<group>"; };
+		30DA676C24270A60007629F0 /* FitnessGoodNightTipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessGoodNightTipsView.swift; sourceTree = "<group>"; };
+		30DA676E24270A7D007629F0 /* FitnessPodcastPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessPodcastPlayerView.swift; sourceTree = "<group>"; };
+		30DA6770242760CD007629F0 /* ATCHorizontalProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCHorizontalProgressBarView.swift; sourceTree = "<group>"; };
+		30DA67742427AC36007629F0 /* ATCAudioPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCAudioPlayerHelper.swift; sourceTree = "<group>"; };
+		30DA67772427AF58007629F0 /* empire-state.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "empire-state.mp3"; sourceTree = "<group>"; };
+		30DB0AC6240B30CC0066759A /* FitnessFeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessFeedbackView.swift; sourceTree = "<group>"; };
+		30DB0AC9240BEBBA0066759A /* ATCFeedbackEmotionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCFeedbackEmotionView.swift; sourceTree = "<group>"; };
+		30DB0ACB240BEBD30066759A /* ATCFeedbackEmotionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCFeedbackEmotionsView.swift; sourceTree = "<group>"; };
+		30DB0ACD240BED290066759A /* ATCFeedbackReasonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCFeedbackReasonView.swift; sourceTree = "<group>"; };
+		30DB0ACF240BED850066759A /* ATCFeedbackReasonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCFeedbackReasonsView.swift; sourceTree = "<group>"; };
+		30DB0AD1240BEDCC0066759A /* ATCFeedbackNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCFeedbackNoteView.swift; sourceTree = "<group>"; };
+		30DB0AD3240BEE7B0066759A /* ATCFoundationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCFoundationExtension.swift; sourceTree = "<group>"; };
+		30DC5B6823D5F1C200B9D0C1 /* ATCGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCGridView.swift; sourceTree = "<group>"; };
+		30DC5B6A23D5F24600B9D0C1 /* FitnessInterestsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessInterestsView.swift; sourceTree = "<group>"; };
+		30DC5B6C23D7374100B9D0C1 /* FitnessCurrentLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessCurrentLevelView.swift; sourceTree = "<group>"; };
+		30DC5B6E23D73FFF00B9D0C1 /* ATCSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATCSliderView.swift; sourceTree = "<group>"; };
+		30DCCBE8242CE60B008B44A4 /* FitnessNutritionTutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessNutritionTutorialView.swift; sourceTree = "<group>"; };
+		30EC5D712428E6CF006295D6 /* FitnessPlayerControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessPlayerControlsView.swift; sourceTree = "<group>"; };
+		30EC5D732428F86C006295D6 /* FitnessPodcastDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessPodcastDetailsView.swift; sourceTree = "<group>"; };
+		30EC5D76242BAA85006295D6 /* ATCSubContentListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCSubContentListView.swift; sourceTree = "<group>"; };
+		30EC5D77242BAA85006295D6 /* ATCSubContentCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCSubContentCellView.swift; sourceTree = "<group>"; };
+		30EC5D7B242BC4B8006295D6 /* FitnessPodcastDetailContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessPodcastDetailContentView.swift; sourceTree = "<group>"; };
+		30F37F542416763100FC074D /* FitnessSleepReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessSleepReminderView.swift; sourceTree = "<group>"; };
+		30F37F562416820300FC074D /* FitnessSubBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessSubBaseView.swift; sourceTree = "<group>"; };
+		9D87B5CE255B214700689F3D /* ATCIAPService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCIAPService.swift; sourceTree = "<group>"; };
+		CABDC7112929C34800313392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAC17F64292AFA1D0012B357 /* FitnessApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "FitnessApp copy-Info.plist"; path = "/Users/manishbhan/Documents/SwiftFitnessAppTemplate/FitnessApp/FitnessApp copy-Info.plist"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3077581723BCA9E1004D3122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17554424245DF99E0047B43F /* IAP */ = {
+			isa = PBXGroup;
+			children = (
+				9D87B5CC255B214700689F3D /* ATCIAPService */,
+				17554425245DF99E0047B43F /* Models */,
+			);
+			path = IAP;
+			sourceTree = "<group>";
+		};
+		17554425245DF99E0047B43F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				17554426245DF99E0047B43F /* ATCSubscription.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		301DA32324322FAB0074C53D /* CameraAndGallery */ = {
+			isa = PBXGroup;
+			children = (
+				301DA324243230170074C53D /* Coordinator.swift */,
+				301DA326243230620074C53D /* CameraAndGalleryView.swift */,
+			);
+			path = CameraAndGallery;
+			sourceTree = "<group>";
+		};
+		3024E09E2403526E007CA34A /* NotificationCellView */ = {
+			isa = PBXGroup;
+			children = (
+				30510AEB2402408300380935 /* ATCNotificationCellView.swift */,
+				3024E09F2403538E007CA34A /* ATCNotificationUIContentView.swift */,
+				3024E0A124035509007CA34A /* ATCNotificationExtraUIView.swift */,
+			);
+			path = NotificationCellView;
+			sourceTree = "<group>";
+		};
+		302DDC8F241C795E00B383EB /* ArticlesView */ = {
+			isa = PBXGroup;
+			children = (
+				302DDC90241C79ED00B383EB /* ATCArticleView.swift */,
+				302DDC92241C7AED00B383EB /* ATCArticlesView.swift */,
+				302DDC94241C7D1100B383EB /* ATCAuthorView.swift */,
+			);
+			path = ArticlesView;
+			sourceTree = "<group>";
+		};
+		302DDC96241C7E4100B383EB /* FitnessExploreView */ = {
+			isa = PBXGroup;
+			children = (
+				302DDC8B241B1F6D00B383EB /* FitnessExploreView.swift */,
+				302DDC97241C7EBF00B383EB /* FitnessTopTopicsView.swift */,
+			);
+			path = FitnessExploreView;
+			sourceTree = "<group>";
+		};
+		302DDC9D241C8FDA00B383EB /* ExploreModel */ = {
+			isa = PBXGroup;
+			children = (
+				302DDCA7241CB7D000B383EB /* SubContentModel.swift */,
+				302DDCA6241CB7D000B383EB /* SubContentModelProtocol.swift */,
+				302DDC9E241C900700B383EB /* FitnessArticleProtocol.swift */,
+				302DDCA0241C957700B383EB /* FitnessArticle.swift */,
+				302DDCAC241E298C00B383EB /* FitnessSongProtocol.swift */,
+				302DDCAE241E299A00B383EB /* FitnessSong.swift */,
+			);
+			path = ExploreModel;
+			sourceTree = "<group>";
+		};
+		302DDCB0241E319900B383EB /* FitnessSharePlaylistView */ = {
+			isa = PBXGroup;
+			children = (
+				302DDCB1241E31C400B383EB /* FitnessSongView.swift */,
+				302DDCAA241E183100B383EB /* FitnessSharePlaylistView.swift */,
+				302DDCB3241E31FA00B383EB /* FitnessPlaylistView.swift */,
+			);
+			path = FitnessSharePlaylistView;
+			sourceTree = "<group>";
+		};
+		302DDCB72421214D00B383EB /* FitnessShareAchievedResultView */ = {
+			isa = PBXGroup;
+			children = (
+				302DDCB5242114D500B383EB /* FitnessShareAchievedResultView.swift */,
+				302DDCB8242121B100B383EB /* FitnessAchievedResultView.swift */,
+			);
+			path = FitnessShareAchievedResultView;
+			sourceTree = "<group>";
+		};
+		3034DE932412185A003117EB /* EventView */ = {
+			isa = PBXGroup;
+			children = (
+				3034DE9424121887003117EB /* FitnessEventCalenderView.swift */,
+				3034DE96241218E0003117EB /* FitnessEventCalenderCellView.swift */,
+				3034DE9824121939003117EB /* FitnessTitleContainerView.swift */,
+				3034DE9C24135E4A003117EB /* FitnessAttendeesView.swift */,
+			);
+			path = EventView;
+			sourceTree = "<group>";
+		};
+		3034DEA92413DDFE003117EB /* CommentSectionView */ = {
+			isa = PBXGroup;
+			children = (
+				3034DEA32413AA4E003117EB /* ATCCommentView.swift */,
+				3034DEAA2413DE4A003117EB /* ATCCommentsView.swift */,
+			);
+			path = CommentSectionView;
+			sourceTree = "<group>";
+		};
+		303C909923CAB3A4009C5819 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				30D5773B243CAFCC00E4AC90 /* ATCProgressBarView */,
+				303C911823CAF103009C5819 /* ATCCountryCodeView.swift */,
+				302764E723C8603F00F7E644 /* ATCSubFooterView.swift */,
+				302764E523C731AC00F7E644 /* ATCSecureTextFieldView.swift */,
+				3013296023CE8FF200551F53 /* ATCTitleDescriptionView.swift */,
+				30DC5B6823D5F1C200B9D0C1 /* ATCGridView.swift */,
+				30DC5B6E23D73FFF00B9D0C1 /* ATCSliderView.swift */,
+				3017B7D723F583E100893BCE /* ATCCheckboxView.swift */,
+				3017B7D923F58D7200893BCE /* ATCSelectionView.swift */,
+				30A055BB24014D3E0089304F /* ATCTextAndToggleView.swift */,
+				30B3D9532405FB6500CB0DAD /* ATCAvatarView.swift */,
+				3034DE9E241390C9003117EB /* ATCSeparatorLineView.swift */,
+				302DDC8D241C788500B383EB /* ATCSearchTextFieldView.swift */,
+				30ADC8DC243086F30009ACE1 /* ATCHealthTrackingInformationView.swift */,
+				30DA3AE8243AB549003F8934 /* ATCHighlightTextView.swift */,
+				307D17232444B91000879A24 /* ATCCustomNavigationBarView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		303C909A23CAB478009C5819 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				303C90DB23CAB478009C5819 /* Misc.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		303C912523CC8353009C5819 /* CenteredListView */ = {
+			isa = PBXGroup;
+			children = (
+				303C913023CD4950009C5819 /* ATCCenteredCollectionViewCell.swift */,
+				303C912623CC842E009C5819 /* ATCCenteredCollectionViewFlowLayout.swift */,
+				303C912A23CC864C009C5819 /* ATCCenteredListView.swift */,
+			);
+			path = CenteredListView;
+			sourceTree = "<group>";
+		};
+		3052F9242425192100514A24 /* FitnessRewardView */ = {
+			isa = PBXGroup;
+			children = (
+				3052F91E2423C05200514A24 /* FitnessRewardView.swift */,
+				3052F9252425198500514A24 /* FitnessRewardBoardView.swift */,
+				3052F927242519E400514A24 /* FitnessQuickBannerView.swift */,
+				3052F92924251A9700514A24 /* FitnessRewardTipsView.swift */,
+			);
+			path = FitnessRewardView;
+			sourceTree = "<group>";
+		};
+		306C95B023C6152D00DA0D5F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				30DA3ADF243AB1AA003F8934 /* ATCLocalizationHelper.swift */,
+				306C95BB23C6152D00DA0D5F /* ATCUIGenericConfigurationProtocol.swift */,
+				3096236B23C97688000ACD58 /* ATCPasswordValidator.swift */,
+				30DB0AD3240BEE7B0066759A /* ATCFoundationExtension.swift */,
+				30DA67742427AC36007629F0 /* ATCAudioPlayerHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		306C960D23C6245A00DA0D5F /* CustomModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				306C960E23C6247700DA0D5F /* ATCModifiers.swift */,
+			);
+			path = CustomModifiers;
+			sourceTree = "<group>";
+		};
+		30737D2423C40BAB0091F2AB /* SwiftUIHelper */ = {
+			isa = PBXGroup;
+			children = (
+				30737D2523C40BF00091F2AB /* SwiftUIKeyboardResponse.swift */,
+				30737D2723C40C490091F2AB /* SwiftUIExtension.swift */,
+			);
+			path = SwiftUIHelper;
+			sourceTree = "<group>";
+		};
+		3077581123BCA9E1004D3122 = {
+			isa = PBXGroup;
+			children = (
+				3077581C23BCA9E1004D3122 /* FitnessApp */,
+				3077581B23BCA9E1004D3122 /* Products */,
+				CAC17F64292AFA1D0012B357 /* FitnessApp copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		3077581B23BCA9E1004D3122 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3077581A23BCA9E1004D3122 /* Fitness.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3077581C23BCA9E1004D3122 /* FitnessApp */ = {
+			isa = PBXGroup;
+			children = (
+				30A055BD240157630089304F /* Models */,
+				3077671A23C0C0A6004D3122 /* Configuration */,
+				30775FA923BCDC04004D3122 /* Core */,
+				3077583523BCAA4F004D3122 /* Resources */,
+				3077583423BCAA31004D3122 /* System */,
+				3077583123BCA9ED004D3122 /* UI */,
+				3077582523BCA9E6004D3122 /* Preview Content */,
+			);
+			path = FitnessApp;
+			sourceTree = "<group>";
+		};
+		3077582523BCA9E6004D3122 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3077582623BCA9E6004D3122 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3077583123BCA9ED004D3122 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3096236D23C97DC7000ACD58 /* Helper */,
+				3077583323BCAA21004D3122 /* Components */,
+				3077583223BCAA10004D3122 /* Screens */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		3077583223BCAA10004D3122 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				30D5773E243CCD2400E4AC90 /* FitnessWaterView */,
+				30DA3AE3243AB33D003F8934 /* FitnessNutritionView */,
+				30DA3AD824362A81003F8934 /* FitnessHomeView */,
+				30ADC8D924304F2C0009ACE1 /* FitnessMyProfileProgressView */,
+				30ADC89E242E37040009ACE1 /* FitnessProfileProgressView */,
+				30EC5D7A242BC483006295D6 /* FitnessPodcastDetailsView */,
+				30EC5D702428E5B8006295D6 /* FitnessPodcastPlayerView */,
+				30DA676524264CBC007629F0 /* FitnessPodcastView */,
+				3052F9242425192100514A24 /* FitnessRewardView */,
+				302DDCB72421214D00B383EB /* FitnessShareAchievedResultView */,
+				302DDCB0241E319900B383EB /* FitnessSharePlaylistView */,
+				302DDC96241C7E4100B383EB /* FitnessExploreView */,
+				307D17162441900A00879A24 /* FitnessOnboardingPhase */,
+				30A055C02401581B0089304F /* FitnessSettingView.swift */,
+				30510AE92402076500380935 /* FitnessInviteFriendView.swift */,
+				30510AED240266D000380935 /* FitnessNotificationListView.swift */,
+				30B3D94F2405F9C700CB0DAD /* FitnessFeedView.swift */,
+				30DB0AC6240B30CC0066759A /* FitnessFeedbackView.swift */,
+				3034DE87240DDE57003117EB /* FitnessWeightReminderView.swift */,
+				3034DE89240FCB2C003117EB /* FitnessEventView.swift */,
+				3034DE9A24132A93003117EB /* FitnessEventChallengeView.swift */,
+				3034DEA0241391D3003117EB /* FitnessCommentsInPostView.swift */,
+				30F37F542416763100FC074D /* FitnessSleepReminderView.swift */,
+				301DA32124322B030074C53D /* FitnessCreatePostView.swift */,
+				30D57741243CCF1400E4AC90 /* FitnessStepsView.swift */,
+				300444E824543F0C0083C83B /* FitnessUpgradeAccountView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		3077583323BCAA21004D3122 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				30737D2223C1E6600091F2AB /* FitnessBaseView.swift */,
+				306C961023C6267B00DA0D5F /* SingleVerificationCodeView.swift */,
+				302764DF23C71BD500F7E644 /* VerificationPasswordView.swift */,
+				30F37F562416820300FC074D /* FitnessSubBaseView.swift */,
+				3052F9202424FE7C00514A24 /* CarouselContentView.swift */,
+				30D5773C243CB5A000E4AC90 /* FitnessWarningView.swift */,
+				30D57745243D58F600E4AC90 /* FitnessDropdownButtonView.swift */,
+				30CF4B1924508917000687BE /* FitnessDrawerBaseView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3077583423BCAA31004D3122 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				3077581D23BCA9E1004D3122 /* AppDelegate.swift */,
+				3077581F23BCA9E1004D3122 /* SceneDelegate.swift */,
+				307D1713244167E200879A24 /* HostingController.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		3077583523BCAA4F004D3122 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3077671423C0BC63004D3122 /* Font */,
+				3077582B23BCA9E6004D3122 /* Info.plist */,
+				3077582823BCA9E6004D3122 /* LaunchScreen.storyboard */,
+				CABDC7112929C34800313392 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		30775FA923BCDC04004D3122 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				17554424245DF99E0047B43F /* IAP */,
+				303C909A23CAB478009C5819 /* Assets */,
+				306C95B023C6152D00DA0D5F /* Helpers */,
+				307766E423BD7127004D3122 /* ReusableSwiftUI */,
+				3077630723BCDC05004D3122 /* UIExtensions */,
+			);
+			name = Core;
+			path = ../../Core;
+			sourceTree = "<group>";
+		};
+		3077630723BCDC05004D3122 /* UIExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				30DA3AE1243AB1F4003F8934 /* String.swift */,
+				30DA3ADD243AB131003F8934 /* UIImage.swift */,
+				30ADC8D1242F02780009ACE1 /* SwiftUIExtensions */,
+				3077630C23BCDC05004D3122 /* UIColor.swift */,
+			);
+			path = UIExtensions;
+			sourceTree = "<group>";
+		};
+		307766E423BD7127004D3122 /* ReusableSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				30CF4B1824508267000687BE /* ATCDrawerMenuView */,
+				307D171C2444A20200879A24 /* TabBarView */,
+				301DA32324322FAB0074C53D /* CameraAndGallery */,
+				30ADC8D824303E3B0009ACE1 /* Charts */,
+				30EC5D75242BA9C7006295D6 /* SubContentListView */,
+				302DDC8F241C795E00B383EB /* ArticlesView */,
+				3034DEA92413DDFE003117EB /* CommentSectionView */,
+				30ADC8B4242E41A60009ACE1 /* ATCLineChartView */,
+				3034DE932412185A003117EB /* EventView */,
+				30DB0AC8240BDBDC0066759A /* FeedBackView */,
+				30862AC62407E2C5008F909D /* SubFeedView */,
+				3024E09E2403526E007CA34A /* NotificationCellView */,
+				30A055A12400127A0089304F /* UpgradeAccountView */,
+				303C912523CC8353009C5819 /* CenteredListView */,
+				303C909923CAB3A4009C5819 /* CustomViews */,
+				306C960D23C6245A00DA0D5F /* CustomModifiers */,
+				30737D2423C40BAB0091F2AB /* SwiftUIHelper */,
+				307766E523BD7127004D3122 /* CarouselView */,
+			);
+			path = ReusableSwiftUI;
+			sourceTree = "<group>";
+		};
+		307766E523BD7127004D3122 /* CarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				3077670823C0A949004D3122 /* ATCCarouselModel.swift */,
+				3077670A23C0A949004D3122 /* ATCCarouselView.swift */,
+				3077670B23C0A949004D3122 /* ATCPageControlView.swift */,
+				3077670D23C0A949004D3122 /* ATCPageView.swift */,
+				3077670923C0A949004D3122 /* ATCPageViewController.swift */,
+			);
+			path = CarouselView;
+			sourceTree = "<group>";
+		};
+		3077671423C0BC63004D3122 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				3077671623C0BC92004D3122 /* Rubik-Medium.ttf */,
+				306C960023C617E700DA0D5F /* Rubik-Black.ttf */,
+				306C960423C617E800DA0D5F /* Rubik-BlackItalic.ttf */,
+				306C960123C617E700DA0D5F /* Rubik-Bold.ttf */,
+				306C95FF23C617E700DA0D5F /* Rubik-BoldItalic.ttf */,
+				306C960323C617E800DA0D5F /* Rubik-Italic.ttf */,
+				306C95FD23C617E600DA0D5F /* Rubik-Light.ttf */,
+				306C95FE23C617E700DA0D5F /* Rubik-LightItalic.ttf */,
+				306C960223C617E800DA0D5F /* Rubik-MediumItalic.ttf */,
+				3077671523C0BC92004D3122 /* Rubik-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		3077671A23C0C0A6004D3122 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				3077671B23C0C18D004D3122 /* FitnessAppConfiguration.swift */,
+				3077671D23C0C2B8004D3122 /* FitnessAppConfigurationProtocol.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		307D17162441900A00879A24 /* FitnessOnboardingPhase */ = {
+			isa = PBXGroup;
+			children = (
+				30DA676C24270A60007629F0 /* FitnessGoodNightTipsView.swift */,
+				30510AEF2402672400380935 /* FitnessOnboardingNotificationView.swift */,
+				307766FC23BD7272004D3122 /* FitnessWalkthoughView.swift */,
+				30737D2023C1E3480091F2AB /* FitnessInformationView.swift */,
+				30737D2923C4A3BE0091F2AB /* FitnessVerificationCodeView.swift */,
+				303C912C23CC8765009C5819 /* FitnessProfilePictureView.swift */,
+				3013296223CE955A00551F53 /* FitnessFingerPrintView.swift */,
+				30A2F35C23CFC49A008391F3 /* FitnessGenderSeletionView.swift */,
+				30DCCBE8242CE60B008B44A4 /* FitnessNutritionTutorialView.swift */,
+				30DC5B6A23D5F24600B9D0C1 /* FitnessInterestsView.swift */,
+				30DC5B6C23D7374100B9D0C1 /* FitnessCurrentLevelView.swift */,
+				3017B7D523F5815A00893BCE /* FitnessGoalsView.swift */,
+				30C0A4D223F699B500421A22 /* FitnessSuccessRegistrationView.swift */,
+			);
+			path = FitnessOnboardingPhase;
+			sourceTree = "<group>";
+		};
+		307D171C2444A20200879A24 /* TabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				307D171D2444A21E00879A24 /* ATCTabBarView.swift */,
+				307D171F2444A36A00879A24 /* ATCTabBarBottomView.swift */,
+				307D17212444A48D00879A24 /* ATCCurvedShape.swift */,
+			);
+			path = TabBarView;
+			sourceTree = "<group>";
+		};
+		30862AC62407E2C5008F909D /* SubFeedView */ = {
+			isa = PBXGroup;
+			children = (
+				30862AC72407E310008F909D /* ATCFeedHeaderInfoView.swift */,
+				30862AC92407E37D008F909D /* ATCFeedTrackingActionsOnPostView.swift */,
+				30862ACB2407E3D2008F909D /* ATCFeedBasicInfoView.swift */,
+				30862ACD2407E444008F909D /* ATCFeedFullInfoView.swift */,
+			);
+			path = SubFeedView;
+			sourceTree = "<group>";
+		};
+		3096236D23C97DC7000ACD58 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3096236E23C97DDD000ACD58 /* InformationType.swift */,
+				30D06C442451EBEB0047ABD8 /* ATCDrawerMenu+Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		30A055A12400127A0089304F /* UpgradeAccountView */ = {
+			isa = PBXGroup;
+			children = (
+				30A055A22400127A0089304F /* ATCUpgradeAccountBottomView.swift */,
+				30A055A32400127A0089304F /* ATCUpgradeAccountCheckboxView.swift */,
+				30A055A42400127A0089304F /* ATCUpgradeAccountConfigurationUIProtocol.swift */,
+				30A055A52400127A0089304F /* ATCUpgradeAccountConsumerTypesView.swift */,
+				30A055A62400127A0089304F /* ATCUpgradeAccountConsumerTypeView.swift */,
+				30A055A72400127A0089304F /* ATCUpgradeAccountView.swift */,
+			);
+			path = UpgradeAccountView;
+			sourceTree = "<group>";
+		};
+		30A055BD240157630089304F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				30C62505245DAE1500118245 /* MockingData */,
+				30DA67762427AF48007629F0 /* Sounds */,
+				302DDC9D241C8FDA00B383EB /* ExploreModel */,
+				30A055BE2401577A0089304F /* SettingModel.swift */,
+				30510AF12402683D00380935 /* FitnessUser.swift */,
+				30510AF32402685200380935 /* FitnessUserProtocol.swift */,
+				30510AF7240269C800380935 /* FitnessPostProtocol.swift */,
+				30510AF9240269DC00380935 /* FitnessPost.swift */,
+				30510AFB240269F600380935 /* FitnessNotificationPayloadProtocol.swift */,
+				30510AFD24026A1200380935 /* FitnessNotificationPayload.swift */,
+				3034DE8B24121791003117EB /* FitnessNearbyEvent.swift */,
+				3034DE8D241217AB003117EB /* FitnessNearbyEventProtocol.swift */,
+				3034DE8F2412180B003117EB /* FitnessHighlightEventProtocol.swift */,
+				3034DE9124121821003117EB /* FitnessHighlightEvent.swift */,
+				3034DEA52413AF4A003117EB /* FitnessCommentProtocol.swift */,
+				3034DEA72413AF63003117EB /* FitnessComment.swift */,
+				3052F9222425148000514A24 /* FitnessQuickContent.swift */,
+				30DA3AD6243629DF003F8934 /* FitnessTrackingProgress.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		30ADC89E242E37040009ACE1 /* FitnessProfileProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				30ADC8D2242F04820009ACE1 /* FitnessProfileProgressView.swift */,
+				30ADC8D4242FA0120009ACE1 /* FitnessTargetTrackingView.swift */,
+				30ADC8D6242FA0DC0009ACE1 /* FitnessJournalView.swift */,
+			);
+			path = FitnessProfileProgressView;
+			sourceTree = "<group>";
+		};
+		30ADC8B4242E41A60009ACE1 /* ATCLineChartView */ = {
+			isa = PBXGroup;
+			children = (
+				30ADC8CF242F025F0009ACE1 /* ATCMagnifierRectView.swift */,
+				30ADC8CD242F021A0009ACE1 /* ATCLineChartView.swift */,
+				30ADC8CB242F01CB0009ACE1 /* ATCLineChartLineProgress.swift */,
+				30ADC8C9242F01390009ACE1 /* ATCChartBoardView.swift */,
+				30ADC8C7242F00E90009ACE1 /* ATCLineChartIndicatorPoint.swift */,
+				30ADC8C5242E41AF0009ACE1 /* ATCLineChartDataSource.swift */,
+			);
+			path = ATCLineChartView;
+			sourceTree = "<group>";
+		};
+		30ADC8D1242F02780009ACE1 /* SwiftUIExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				30ADC8BC242E41A60009ACE1 /* Path+ATCAdditions.swift */,
+			);
+			path = SwiftUIExtensions;
+			sourceTree = "<group>";
+		};
+		30ADC8D824303E3B0009ACE1 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		30ADC8D924304F2C0009ACE1 /* FitnessMyProfileProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				30ADC8DA24304F760009ACE1 /* FitnessMyProfileProgressView.swift */,
+				30ADC8DE2430E9550009ACE1 /* FitnessBadgesView.swift */,
+			);
+			path = FitnessMyProfileProgressView;
+			sourceTree = "<group>";
+		};
+		30C62505245DAE1500118245 /* MockingData */ = {
+			isa = PBXGroup;
+			children = (
+				30510AF52402694100380935 /* FitnessMockingData.swift */,
+			);
+			path = MockingData;
+			sourceTree = "<group>";
+		};
+		30CF4B1824508267000687BE /* ATCDrawerMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				3095DC01244DF43400279652 /* ATCDrawerMenuView.swift */,
+			);
+			path = ATCDrawerMenuView;
+			sourceTree = "<group>";
+		};
+		30D5773B243CAFCC00E4AC90 /* ATCProgressBarView */ = {
+			isa = PBXGroup;
+			children = (
+				30DA6770242760CD007629F0 /* ATCHorizontalProgressBarView.swift */,
+				30D57739243CAFC500E4AC90 /* ATCVerticalProgressBarView.swift */,
+			);
+			path = ATCProgressBarView;
+			sourceTree = "<group>";
+		};
+		30D5773E243CCD2400E4AC90 /* FitnessWaterView */ = {
+			isa = PBXGroup;
+			children = (
+				30D57743243CD16600E4AC90 /* FitnessInsightView.swift */,
+				30DA3AEA243B6685003F8934 /* FitnessWaterView.swift */,
+			);
+			path = FitnessWaterView;
+			sourceTree = "<group>";
+		};
+		30DA3AD824362A81003F8934 /* FitnessHomeView */ = {
+			isa = PBXGroup;
+			children = (
+				30DA3AD924362A9A003F8934 /* FitnessTargetProcessView.swift */,
+				30DA3AD42435E734003F8934 /* FitnessHomeView.swift */,
+			);
+			path = FitnessHomeView;
+			sourceTree = "<group>";
+		};
+		30DA3AE3243AB33D003F8934 /* FitnessNutritionView */ = {
+			isa = PBXGroup;
+			children = (
+				30DA3ADB2439C9A7003F8934 /* FitnessNutritionView.swift */,
+				30DA3AE4243AB377003F8934 /* FitnessNutritionalIngredientsView.swift */,
+				30DA3AE6243AB41D003F8934 /* FitnessNutritiousMealsView.swift */,
+			);
+			path = FitnessNutritionView;
+			sourceTree = "<group>";
+		};
+		30DA676524264CBC007629F0 /* FitnessPodcastView */ = {
+			isa = PBXGroup;
+			children = (
+				30DA67632425CD2B007629F0 /* FitnessPodcastView.swift */,
+				30DA676624264CF2007629F0 /* FitnessLivePodcastView.swift */,
+				30DA676824264D5C007629F0 /* FitnessSuggestionPodcastView.swift */,
+				30DA676A24264DBE007629F0 /* FitnessCategoryPodcastView.swift */,
+			);
+			path = FitnessPodcastView;
+			sourceTree = "<group>";
+		};
+		30DA67762427AF48007629F0 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				30DA67772427AF58007629F0 /* empire-state.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		30DB0AC8240BDBDC0066759A /* FeedBackView */ = {
+			isa = PBXGroup;
+			children = (
+				30DB0AC9240BEBBA0066759A /* ATCFeedbackEmotionView.swift */,
+				30DB0ACB240BEBD30066759A /* ATCFeedbackEmotionsView.swift */,
+				30DB0ACD240BED290066759A /* ATCFeedbackReasonView.swift */,
+				30DB0ACF240BED850066759A /* ATCFeedbackReasonsView.swift */,
+				30DB0AD1240BEDCC0066759A /* ATCFeedbackNoteView.swift */,
+			);
+			path = FeedBackView;
+			sourceTree = "<group>";
+		};
+		30EC5D702428E5B8006295D6 /* FitnessPodcastPlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				30DA676E24270A7D007629F0 /* FitnessPodcastPlayerView.swift */,
+				30EC5D712428E6CF006295D6 /* FitnessPlayerControlsView.swift */,
+			);
+			path = FitnessPodcastPlayerView;
+			sourceTree = "<group>";
+		};
+		30EC5D75242BA9C7006295D6 /* SubContentListView */ = {
+			isa = PBXGroup;
+			children = (
+				30EC5D77242BAA85006295D6 /* ATCSubContentCellView.swift */,
+				30EC5D76242BAA85006295D6 /* ATCSubContentListView.swift */,
+			);
+			path = SubContentListView;
+			sourceTree = "<group>";
+		};
+		30EC5D7A242BC483006295D6 /* FitnessPodcastDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				30EC5D7B242BC4B8006295D6 /* FitnessPodcastDetailContentView.swift */,
+				30EC5D732428F86C006295D6 /* FitnessPodcastDetailsView.swift */,
+			);
+			path = FitnessPodcastDetailsView;
+			sourceTree = "<group>";
+		};
+		9D87B5CC255B214700689F3D /* ATCIAPService */ = {
+			isa = PBXGroup;
+			children = (
+				9D87B5CE255B214700689F3D /* ATCIAPService.swift */,
+			);
+			path = ATCIAPService;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3077581923BCA9E1004D3122 /* FitnessApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3077582E23BCA9E6004D3122 /* Build configuration list for PBXNativeTarget "FitnessApp" */;
+			buildPhases = (
+				3077581623BCA9E1004D3122 /* Sources */,
+				3077581723BCA9E1004D3122 /* Frameworks */,
+				3077581823BCA9E1004D3122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitnessApp;
+			productName = FitnessApp;
+			productReference = 3077581A23BCA9E1004D3122 /* Fitness.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3077581223BCA9E1004D3122 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Duy Bui";
+				TargetAttributes = {
+					3077581923BCA9E1004D3122 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 3077581523BCA9E1004D3122 /* Build configuration list for PBXProject "FitnessApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = 3077581123BCA9E1004D3122;
+			productRefGroup = 3077581B23BCA9E1004D3122 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3077581923BCA9E1004D3122 /* FitnessApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3077581823BCA9E1004D3122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3077582A23BCA9E6004D3122 /* LaunchScreen.storyboard in Resources */,
+				306C960523C61E1B00DA0D5F /* Rubik-Bold.ttf in Resources */,
+				306C960723C61E2200DA0D5F /* Rubik-Black.ttf in Resources */,
+				3077671723C0BC92004D3122 /* Rubik-Regular.ttf in Resources */,
+				303C911723CAB478009C5819 /* Misc.xcassets in Resources */,
+				3077582723BCA9E6004D3122 /* Preview Assets.xcassets in Resources */,
+				CABDC7122929C34800313392 /* Assets.xcassets in Resources */,
+				306C960623C61E1E00DA0D5F /* Rubik-BlackItalic.ttf in Resources */,
+				306C960923C61E2800DA0D5F /* Rubik-Italic.ttf in Resources */,
+				30DA67782427AF58007629F0 /* empire-state.mp3 in Resources */,
+				306C960823C61E2500DA0D5F /* Rubik-BoldItalic.ttf in Resources */,
+				306C960C23C61E3200DA0D5F /* Rubik-MediumItalic.ttf in Resources */,
+				306C960B23C61E2F00DA0D5F /* Rubik-LightItalic.ttf in Resources */,
+				3077671823C0BC92004D3122 /* Rubik-Medium.ttf in Resources */,
+				306C960A23C61E2C00DA0D5F /* Rubik-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3077581623BCA9E1004D3122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30DA676B24264DBE007629F0 /* FitnessCategoryPodcastView.swift in Sources */,
+				30A055BF2401577A0089304F /* SettingModel.swift in Sources */,
+				30D57746243D58F600E4AC90 /* FitnessDropdownButtonView.swift in Sources */,
+				3024E0A02403538E007CA34A /* ATCNotificationUIContentView.swift in Sources */,
+				30DC5B6923D5F1C200B9D0C1 /* ATCGridView.swift in Sources */,
+				302764E623C731AC00F7E644 /* ATCSecureTextFieldView.swift in Sources */,
+				30737D2823C40C490091F2AB /* SwiftUIExtension.swift in Sources */,
+				30DA3ADE243AB131003F8934 /* UIImage.swift in Sources */,
+				306C961123C6267B00DA0D5F /* SingleVerificationCodeView.swift in Sources */,
+				307D171E2444A21E00879A24 /* ATCTabBarView.swift in Sources */,
+				3096236C23C97688000ACD58 /* ATCPasswordValidator.swift in Sources */,
+				30C0A4D323F699B500421A22 /* FitnessSuccessRegistrationView.swift in Sources */,
+				30CF4B1A24508917000687BE /* FitnessDrawerBaseView.swift in Sources */,
+				3017B7D823F583E100893BCE /* ATCCheckboxView.swift in Sources */,
+				30ADC8CE242F021A0009ACE1 /* ATCLineChartView.swift in Sources */,
+				30ADC8D7242FA0DC0009ACE1 /* FitnessJournalView.swift in Sources */,
+				3013296323CE955A00551F53 /* FitnessFingerPrintView.swift in Sources */,
+				3052F92A24251A9700514A24 /* FitnessRewardTipsView.swift in Sources */,
+				30DA67752427AC36007629F0 /* ATCAudioPlayerHelper.swift in Sources */,
+				3077671323C0A949004D3122 /* ATCPageView.swift in Sources */,
+				302DDCB9242121B100B383EB /* FitnessAchievedResultView.swift in Sources */,
+				30ADC8D3242F04820009ACE1 /* FitnessProfileProgressView.swift in Sources */,
+				3034DE8C24121791003117EB /* FitnessNearbyEvent.swift in Sources */,
+				30510AFC240269F600380935 /* FitnessNotificationPayloadProtocol.swift in Sources */,
+				30D57742243CCF1400E4AC90 /* FitnessStepsView.swift in Sources */,
+				302DDCAD241E298C00B383EB /* FitnessSongProtocol.swift in Sources */,
+				30DB0ACA240BEBBA0066759A /* ATCFeedbackEmotionView.swift in Sources */,
+				30EC5D78242BAA85006295D6 /* ATCSubContentListView.swift in Sources */,
+				30DA3ADA24362A9A003F8934 /* FitnessTargetProcessView.swift in Sources */,
+				30EC5D742428F86C006295D6 /* FitnessPodcastDetailsView.swift in Sources */,
+				302DDCA8241CB7D000B383EB /* SubContentModelProtocol.swift in Sources */,
+				30510AFE24026A1200380935 /* FitnessNotificationPayload.swift in Sources */,
+				302DDC93241C7AED00B383EB /* ATCArticlesView.swift in Sources */,
+				30D06C452451EBEB0047ABD8 /* ATCDrawerMenu+Extension.swift in Sources */,
+				30737D2A23C4A3BE0091F2AB /* FitnessVerificationCodeView.swift in Sources */,
+				30862ACA2407E37D008F909D /* ATCFeedTrackingActionsOnPostView.swift in Sources */,
+				306C95E423C6152E00DA0D5F /* ATCUIGenericConfigurationProtocol.swift in Sources */,
+				3013296123CE8FF200551F53 /* ATCTitleDescriptionView.swift in Sources */,
+				30ADC8DF2430E9560009ACE1 /* FitnessBadgesView.swift in Sources */,
+				30ADC8CC242F01CB0009ACE1 /* ATCLineChartLineProgress.swift in Sources */,
+				30DA6771242760CD007629F0 /* ATCHorizontalProgressBarView.swift in Sources */,
+				30DC5B6D23D7374100B9D0C1 /* FitnessCurrentLevelView.swift in Sources */,
+				30ADC8DD243086F30009ACE1 /* ATCHealthTrackingInformationView.swift in Sources */,
+				30F37F552416763100FC074D /* FitnessSleepReminderView.swift in Sources */,
+				302DDCA9241CB7D000B383EB /* SubContentModel.swift in Sources */,
+				3034DE8A240FCB2C003117EB /* FitnessEventView.swift in Sources */,
+				303C911923CAF103009C5819 /* ATCCountryCodeView.swift in Sources */,
+				30A055AB2400127A0089304F /* ATCUpgradeAccountConsumerTypesView.swift in Sources */,
+				30ADC8D5242FA0120009ACE1 /* FitnessTargetTrackingView.swift in Sources */,
+				302DDCB2241E31C400B383EB /* FitnessSongView.swift in Sources */,
+				3034DE9B24132A93003117EB /* FitnessEventChallengeView.swift in Sources */,
+				3034DE9F241390C9003117EB /* ATCSeparatorLineView.swift in Sources */,
+				302DDCAF241E299A00B383EB /* FitnessSong.swift in Sources */,
+				30A055C12401581B0089304F /* FitnessSettingView.swift in Sources */,
+				3077671C23C0C18D004D3122 /* FitnessAppConfiguration.swift in Sources */,
+				3052F9212424FE7C00514A24 /* CarouselContentView.swift in Sources */,
+				3095DC02244DF43400279652 /* ATCDrawerMenuView.swift in Sources */,
+				3052F928242519E400514A24 /* FitnessQuickBannerView.swift in Sources */,
+				3052F9232425148000514A24 /* FitnessQuickContent.swift in Sources */,
+				302DDC8E241C788500B383EB /* ATCSearchTextFieldView.swift in Sources */,
+				3096236F23C97DDD000ACD58 /* InformationType.swift in Sources */,
+				303C912723CC842E009C5819 /* ATCCenteredCollectionViewFlowLayout.swift in Sources */,
+				302764E823C8603F00F7E644 /* ATCSubFooterView.swift in Sources */,
+				3017B7DA23F58D7200893BCE /* ATCSelectionView.swift in Sources */,
+				30DC5B6F23D73FFF00B9D0C1 /* ATCSliderView.swift in Sources */,
+				30B3D9502405F9C700CB0DAD /* FitnessFeedView.swift in Sources */,
+				30DB0ACC240BEBD30066759A /* ATCFeedbackEmotionsView.swift in Sources */,
+				30B3D9542405FB6500CB0DAD /* ATCAvatarView.swift in Sources */,
+				30DA3AE7243AB41D003F8934 /* FitnessNutritiousMealsView.swift in Sources */,
+				30DB0ACE240BED290066759A /* ATCFeedbackReasonView.swift in Sources */,
+				302DDC9F241C900700B383EB /* FitnessArticleProtocol.swift in Sources */,
+				30862ACC2407E3D2008F909D /* ATCFeedBasicInfoView.swift in Sources */,
+				30510AF8240269C800380935 /* FitnessPostProtocol.swift in Sources */,
+				30ADC8C8242F00E90009ACE1 /* ATCLineChartIndicatorPoint.swift in Sources */,
+				30DA3AD7243629DF003F8934 /* FitnessTrackingProgress.swift in Sources */,
+				307D17222444A48D00879A24 /* ATCCurvedShape.swift in Sources */,
+				307766FD23BD7272004D3122 /* FitnessWalkthoughView.swift in Sources */,
+				302DDC8C241B1F6D00B383EB /* FitnessExploreView.swift in Sources */,
+				3024E0A224035509007CA34A /* ATCNotificationExtraUIView.swift in Sources */,
+				307D1714244167E200879A24 /* HostingController.swift in Sources */,
+				30862ACE2407E444008F909D /* ATCFeedFullInfoView.swift in Sources */,
+				3034DE8E241217AB003117EB /* FitnessNearbyEventProtocol.swift in Sources */,
+				30510AEE240266D000380935 /* FitnessNotificationListView.swift in Sources */,
+				303C912D23CC8765009C5819 /* FitnessProfilePictureView.swift in Sources */,
+				30ADC8D0242F025F0009ACE1 /* ATCMagnifierRectView.swift in Sources */,
+				3077581E23BCA9E1004D3122 /* AppDelegate.swift in Sources */,
+				303C913123CD4950009C5819 /* ATCCenteredCollectionViewCell.swift in Sources */,
+				30DA3AEB243B6685003F8934 /* FitnessWaterView.swift in Sources */,
+				302DDCB6242114D500B383EB /* FitnessShareAchievedResultView.swift in Sources */,
+				30862AC82407E310008F909D /* ATCFeedHeaderInfoView.swift in Sources */,
+				30DA3AD52435E734003F8934 /* FitnessHomeView.swift in Sources */,
+				30DA3AE5243AB377003F8934 /* FitnessNutritionalIngredientsView.swift in Sources */,
+				30737D2123C1E3480091F2AB /* FitnessInformationView.swift in Sources */,
+				3034DEA42413AA4E003117EB /* ATCCommentView.swift in Sources */,
+				302DDCB4241E31FA00B383EB /* FitnessPlaylistView.swift in Sources */,
+				30ADC8CA242F013A0009ACE1 /* ATCChartBoardView.swift in Sources */,
+				30737D2623C40BF00091F2AB /* SwiftUIKeyboardResponse.swift in Sources */,
+				301DA325243230170074C53D /* Coordinator.swift in Sources */,
+				301DA327243230620074C53D /* CameraAndGalleryView.swift in Sources */,
+				3034DE97241218E0003117EB /* FitnessEventCalenderCellView.swift in Sources */,
+				3034DE902412180B003117EB /* FitnessHighlightEventProtocol.swift in Sources */,
+				302DDCAB241E183100B383EB /* FitnessSharePlaylistView.swift in Sources */,
+				302764E023C71BD500F7E644 /* VerificationPasswordView.swift in Sources */,
+				30DA67642425CD2B007629F0 /* FitnessPodcastView.swift in Sources */,
+				30DA676924264D5C007629F0 /* FitnessSuggestionPodcastView.swift in Sources */,
+				30DB0AD0240BED850066759A /* ATCFeedbackReasonsView.swift in Sources */,
+				30510AF62402694100380935 /* FitnessMockingData.swift in Sources */,
+				30DA3AE2243AB1F4003F8934 /* String.swift in Sources */,
+				30DA676724264CF2007629F0 /* FitnessLivePodcastView.swift in Sources */,
+				30510AF22402683D00380935 /* FitnessUser.swift in Sources */,
+				30510AF42402685200380935 /* FitnessUserProtocol.swift in Sources */,
+				3034DEA82413AF63003117EB /* FitnessComment.swift in Sources */,
+				3034DEA62413AF4A003117EB /* FitnessCommentProtocol.swift in Sources */,
+				3034DE9224121821003117EB /* FitnessHighlightEvent.swift in Sources */,
+				3077670F23C0A949004D3122 /* ATCPageViewController.swift in Sources */,
+				30EC5D7C242BC4B8006295D6 /* FitnessPodcastDetailContentView.swift in Sources */,
+				30ADC8C4242E41A60009ACE1 /* Path+ATCAdditions.swift in Sources */,
+				3077666323BCDC06004D3122 /* UIColor.swift in Sources */,
+				30DA3AE0243AB1AB003F8934 /* ATCLocalizationHelper.swift in Sources */,
+				3034DE9924121939003117EB /* FitnessTitleContainerView.swift in Sources */,
+				30DB0AC7240B30CC0066759A /* FitnessFeedbackView.swift in Sources */,
+				30D5773D243CB5A000E4AC90 /* FitnessWarningView.swift in Sources */,
+				30A055BC24014D3E0089304F /* ATCTextAndToggleView.swift in Sources */,
+				300444E924543F0C0083C83B /* FitnessUpgradeAccountView.swift in Sources */,
+				30DA676D24270A60007629F0 /* FitnessGoodNightTipsView.swift in Sources */,
+				3077671123C0A949004D3122 /* ATCPageControlView.swift in Sources */,
+				30EC5D79242BAA85006295D6 /* ATCSubContentCellView.swift in Sources */,
+				301DA32224322B030074C53D /* FitnessCreatePostView.swift in Sources */,
+				30D57744243CD16600E4AC90 /* FitnessInsightView.swift in Sources */,
+				3034DE9524121887003117EB /* FitnessEventCalenderView.swift in Sources */,
+				30A055A82400127A0089304F /* ATCUpgradeAccountBottomView.swift in Sources */,
+				30ADC8DB24304F760009ACE1 /* FitnessMyProfileProgressView.swift in Sources */,
+				3077582023BCA9E1004D3122 /* SceneDelegate.swift in Sources */,
+				30A055AA2400127A0089304F /* ATCUpgradeAccountConfigurationUIProtocol.swift in Sources */,
+				3077671023C0A949004D3122 /* ATCCarouselView.swift in Sources */,
+				30A055AC2400127A0089304F /* ATCUpgradeAccountConsumerTypeView.swift in Sources */,
+				30DA3ADC2439C9A7003F8934 /* FitnessNutritionView.swift in Sources */,
+				307D17202444A36A00879A24 /* ATCTabBarBottomView.swift in Sources */,
+				3077670E23C0A949004D3122 /* ATCCarouselModel.swift in Sources */,
+				17554427245DF99E0047B43F /* ATCSubscription.swift in Sources */,
+				30DA3AE9243AB549003F8934 /* ATCHighlightTextView.swift in Sources */,
+				30737D2323C1E6600091F2AB /* FitnessBaseView.swift in Sources */,
+				3017B7D623F5815A00893BCE /* FitnessGoalsView.swift in Sources */,
+				30510AEA2402076500380935 /* FitnessInviteFriendView.swift in Sources */,
+				9D87B5D0255B214700689F3D /* ATCIAPService.swift in Sources */,
+				307D17242444B91000879A24 /* ATCCustomNavigationBarView.swift in Sources */,
+				30D5773A243CAFC500E4AC90 /* ATCVerticalProgressBarView.swift in Sources */,
+				30EC5D722428E6CF006295D6 /* FitnessPlayerControlsView.swift in Sources */,
+				3052F91F2423C05200514A24 /* FitnessRewardView.swift in Sources */,
+				302DDC91241C79ED00B383EB /* ATCArticleView.swift in Sources */,
+				306C960F23C6247700DA0D5F /* ATCModifiers.swift in Sources */,
+				302DDCA1241C957700B383EB /* FitnessArticle.swift in Sources */,
+				30ADC8C6242E41B00009ACE1 /* ATCLineChartDataSource.swift in Sources */,
+				3052F9262425198500514A24 /* FitnessRewardBoardView.swift in Sources */,
+				30DA676F24270A7D007629F0 /* FitnessPodcastPlayerView.swift in Sources */,
+				3034DEAB2413DE4A003117EB /* ATCCommentsView.swift in Sources */,
+				30510AFA240269DC00380935 /* FitnessPost.swift in Sources */,
+				303C912B23CC864C009C5819 /* ATCCenteredListView.swift in Sources */,
+				30DCCBE9242CE60B008B44A4 /* FitnessNutritionTutorialView.swift in Sources */,
+				302DDC98241C7EBF00B383EB /* FitnessTopTopicsView.swift in Sources */,
+				30A2F35D23CFC49A008391F3 /* FitnessGenderSeletionView.swift in Sources */,
+				30A055A92400127A0089304F /* ATCUpgradeAccountCheckboxView.swift in Sources */,
+				3034DEA1241391D3003117EB /* FitnessCommentsInPostView.swift in Sources */,
+				30DB0AD2240BEDCC0066759A /* ATCFeedbackNoteView.swift in Sources */,
+				3077671E23C0C2B8004D3122 /* FitnessAppConfigurationProtocol.swift in Sources */,
+				30510AEC2402408300380935 /* ATCNotificationCellView.swift in Sources */,
+				302DDC95241C7D1100B383EB /* ATCAuthorView.swift in Sources */,
+				30F37F572416820300FC074D /* FitnessSubBaseView.swift in Sources */,
+				30A055AD2400127A0089304F /* ATCUpgradeAccountView.swift in Sources */,
+				30DC5B6B23D5F24600B9D0C1 /* FitnessInterestsView.swift in Sources */,
+				30510AF02402672400380935 /* FitnessOnboardingNotificationView.swift in Sources */,
+				3034DE9D24135E4A003117EB /* FitnessAttendeesView.swift in Sources */,
+				30DB0AD4240BEE7B0066759A /* ATCFoundationExtension.swift in Sources */,
+				3034DE88240DDE57003117EB /* FitnessWeightReminderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3077582823BCA9E6004D3122 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3077582923BCA9E6004D3122 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3077582C23BCA9E6004D3122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3077582D23BCA9E6004D3122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3077582F23BCA9E6004D3122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FitnessApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Z855XR5L2H;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FitnessApp/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosapptemplates.lookupp.ios;
+				PRODUCT_NAME = Fitness;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3077583023BCA9E6004D3122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FitnessApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Z855XR5L2H;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FitnessApp/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosapptemplates.lookupp.ios;
+				PRODUCT_NAME = Fitness;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3077581523BCA9E1004D3122 /* Build configuration list for PBXProject "FitnessApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3077582C23BCA9E6004D3122 /* Debug */,
+				3077582D23BCA9E6004D3122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3077582E23BCA9E6004D3122 /* Build configuration list for PBXNativeTarget "FitnessApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3077582F23BCA9E6004D3122 /* Debug */,
+				3077583023BCA9E6004D3122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3077581223BCA9E1004D3122 /* Project object */;
+}
